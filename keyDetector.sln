@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keyDetector", "keyDetector.csproj", "{0A94A63B-E626-45F2-A5D1-A78048370C1E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup.vdproj", "{444BE938-B42A-490D-9CFC-E0D397198A2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A94A63B-E626-45F2-A5D1-A78048370C1E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{0A94A63B-E626-45F2-A5D1-A78048370C1E}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{0A94A63B-E626-45F2-A5D1-A78048370C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A94A63B-E626-45F2-A5D1-A78048370C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444BE938-B42A-490D-9CFC-E0D397198A2D}.Debug|Any CPU.ActiveCfg = Debug
+		{444BE938-B42A-490D-9CFC-E0D397198A2D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5641B8FA-7467-487D-B51E-E708E70AB3EE}
+	EndGlobalSection
+EndGlobal

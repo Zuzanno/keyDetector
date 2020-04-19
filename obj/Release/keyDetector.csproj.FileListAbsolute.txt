@@ -1,0 +1,10 @@
+C:\Users\Marin\source\repos\keyDetector\bin\Release\keyDetector.exe.config
+C:\Users\Marin\source\repos\keyDetector\bin\Release\keyDetector.exe
+C:\Users\Marin\source\repos\keyDetector\bin\Release\keyDetector.pdb
+C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.csprojAssemblyReference.cache
+C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.KeyMapper.resources
+C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.Properties.Resources.resources
+C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.csproj.GenerateResource.cache
+C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.csproj.CoreCompileInputs.cache
+C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.exe
+C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.pdb
