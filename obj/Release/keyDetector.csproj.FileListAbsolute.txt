@@ -8,3 +8,13 @@ C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.csproj.GenerateR
 C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.csproj.CoreCompileInputs.cache
 C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.exe
 C:\Users\Marin\source\repos\keyDetector\obj\Release\keyDetector.pdb
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\bin\Release\keyDetector.exe.config
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\bin\Release\keyDetector.exe
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\bin\Release\keyDetector.pdb
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\obj\Release\keyDetector.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\obj\Release\keyDetector.KeyMapper.resources
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\obj\Release\keyDetector.Properties.Resources.resources
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\obj\Release\keyDetector.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\obj\Release\keyDetector.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\obj\Release\keyDetector.exe
+C:\Users\User\Source\Repos\Zuzanno\keyDetector\obj\Release\keyDetector.pdb
