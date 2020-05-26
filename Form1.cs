@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -136,11 +137,23 @@ namespace keyDetector
                         button1.PerformClick();
                         label44.Text = KQ.ToString();
                     break;
+                    
+                case (Keys.Q | Keys.Shift):
+                    KQ++;
+                    button1.PerformClick();
+                    label44.Text = KQ.ToString();
+                    break;
 
                 case Keys.W:
                         KW++;
                         button2.PerformClick();
                         label45.Text = KW.ToString();
+                    break;
+
+                case (Keys.W | Keys.Shift):
+                    KW++;
+                    button2.PerformClick();
+                    label45.Text = KW.ToString();
                     break;
 
                 case Keys.E:
@@ -149,10 +162,22 @@ namespace keyDetector
                         label46.Text = KE.ToString();
                     break;
 
+                case (Keys.E | Keys.Shift):
+                    KE++;
+                    button3.PerformClick();
+                    label46.Text = KE.ToString();
+                    break;
+
                 case Keys.R:
                         KR++;
                         button4.PerformClick();
                         label47.Text = KR.ToString();
+                    break;
+
+                case (Keys.R | Keys.Shift):
+                    KR++;
+                    button4.PerformClick();
+                    label47.Text = KR.ToString();
                     break;
 
                 case Keys.T:
@@ -161,10 +186,22 @@ namespace keyDetector
                         label48.Text = KT.ToString();
                     break;
 
+                case (Keys.T | Keys.Shift):
+                    KT++;
+                    button5.PerformClick();
+                    label48.Text = KT.ToString();
+                    break;
+
                 case Keys.Y:
                         KY++;
                         button6.PerformClick();
                         label49.Text = KY.ToString();
+                    break;
+
+                case (Keys.Y | Keys.Shift):
+                    KY++;
+                    button6.PerformClick();
+                    label49.Text = KY.ToString();
                     break;
 
                 case Keys.U:
@@ -328,12 +365,134 @@ namespace keyDetector
                         label66.Text = enter.ToString();
                     break;
 
+                case (Keys.U|Keys.Shift):
+                    KU++;
+                    button7.PerformClick();
+                    label50.Text = KU.ToString();
+                    break;
+
+                case (Keys.I | Keys.Shift):
+                    KI++;
+                    button8.PerformClick();
+                    label51.Text = KI.ToString();
+                    break;
+
+                case (Keys.O | Keys.Shift):
+                    KO++;
+                    button9.PerformClick();
+                    label52.Text = KO.ToString();
+                    break;
+
+                case (Keys.P | Keys.Shift):
+                    KP++;
+                    button10.PerformClick();
+                    label53.Text = KP.ToString();
+                    break;
+
+                case (Keys.A | Keys.Shift):
+                    KA++;
+                    button11.PerformClick();
+                    label54.Text = KA.ToString();
+                    break;
+
+                case (Keys.S | Keys.Shift):
+                    KS++;
+                    button12.PerformClick();
+                    label55.Text = KS.ToString();
+                    break;
+
+                case (Keys.D | Keys.Shift):
+                    KD++;
+                    button13.PerformClick();
+                    label56.Text = KD.ToString();
+                    break;
+
+                case (Keys.F | Keys.Shift):
+                    KF++;
+                    button14.PerformClick();
+                    label57.Text = KF.ToString();
+                    break;
+
+                case (Keys.G | Keys.Shift):
+                    KG++;
+                    button15.PerformClick();
+                    label58.Text = KG.ToString();
+                    break;
+                case (Keys.H | Keys.Shift):
+                    KH++;
+                    button16.PerformClick();
+                    label59.Text = KH.ToString();
+                    break;
+                case (Keys.J | Keys.Shift):
+
+                    KJ++;
+                    button17.PerformClick();
+                    label60.Text = KJ.ToString();
+                    break;
+                case (Keys.K | Keys.Shift):
+
+                    KK++;
+                    button18.PerformClick();
+                    label61.Text = KK.ToString();
+                    break;
+                case (Keys.L | Keys.Shift):
+
+                    KL++;
+                    button19.PerformClick();
+                    label78.Text = KL.ToString();
+                    break;
+                
+                case (Keys.Z | Keys.Shift):
+
+                    KZ++;
+                    button21.PerformClick();
+                    label80.Text = KZ.ToString();
+                    break;
+                case (Keys.X | Keys.Shift):
+
+                    KX++;
+                    button22.PerformClick();
+                    label81.Text = KX.ToString();
+                    break;
+                case (Keys.C | Keys.Shift):
+
+                    KC++;
+                    button23.PerformClick();
+                    label82.Text = KC.ToString();
+                    break;
+                case (Keys.V | Keys.Shift):
+
+                    KV++;
+                    button24.PerformClick();
+                    label83.Text = KV.ToString();
+                    break;
+                case (Keys.B | Keys.Shift):
+
+                    KB++;
+                    button25.PerformClick();
+                    label84.Text = KB.ToString();
+                    break;
+                case (Keys.N | Keys.Shift):
+
+                    KN++;
+                    button26.PerformClick();
+                    label85.Text = KN.ToString();
+                    break;
+                case (Keys.M | Keys.Shift):
+
+                    KM++;
+                    button27.PerformClick();
+                    label86.Text = KM.ToString();
+                    break;
+
             }
 
            
 
             return base.ProcessCmdKey(ref msg, keyData);
+
         }
+
 
     }
 }
