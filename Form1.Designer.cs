@@ -469,6 +469,9 @@
             this.button35.TabStop = false;
             this.button35.Text = "1";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Enter += new System.EventHandler(this.button35_Enter);
+            this.button35.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button35_KeyDown);
+            this.button35.KeyUp += new System.Windows.Forms.KeyEventHandler(this.button35_KeyUp);
             // 
             // button36
             // 
@@ -479,6 +482,8 @@
             this.button36.TabStop = false;
             this.button36.Text = "2";
             this.button36.UseVisualStyleBackColor = true;
+            this.button36.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button36_KeyDown);
+            this.button36.KeyUp += new System.Windows.Forms.KeyEventHandler(this.button36_KeyUp);
             // 
             // button37
             // 
@@ -489,6 +494,8 @@
             this.button37.TabStop = false;
             this.button37.Text = "3";
             this.button37.UseVisualStyleBackColor = true;
+            this.button37.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button37_KeyDown);
+            this.button37.KeyUp += new System.Windows.Forms.KeyEventHandler(this.button37_KeyUp);
             // 
             // button38
             // 
